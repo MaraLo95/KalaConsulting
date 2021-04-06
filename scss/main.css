@@ -7975,5 +7975,41 @@ transition: 1s ease;
 .tab-content.hide { display: none; }
 
 #edu-type {
-	margin: 50px;
+	margin: 0px 50px 50px;
 }
+
+#edu-type .price {
+	width: 100%;
+	border: 1px solid gray;
+}
+
+#tab1 h4, p {
+	text-align: center;
+	padding-top: 10px;
+}
+
+.edu-title {
+	width: 100%;
+}
+
+.price {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.price td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.price tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+
+
+
+
