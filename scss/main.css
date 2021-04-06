@@ -7974,24 +7974,31 @@ transition: 1s ease;
 .tab-content.active { display: block; }
 .tab-content.hide { display: none; }
 
+
 #edu-type {
 	margin: 0px 50px 50px;
 }
-
+.nav-tabs li.active a {
+	color: black;
+}
 #edu-type .price {
 	width: 100%;
 	border: 1px solid gray;
 }
-
-#tab1 h4, p {
+#tab1 .explain {
 	text-align: center;
 	padding-top: 10px;
+	font-weight: bold;
 }
 
 .edu-title {
 	width: 100%;
 }
-
+.edu-desc {
+	font-size: 16px;
+	color: #fff;
+	padding-top: 10px;
+}
 .price {
   font-family: arial, sans-serif;
   border-collapse: collapse;

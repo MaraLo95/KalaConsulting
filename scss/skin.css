@@ -493,6 +493,16 @@ body.cyan #features-page .right-section {
 body.cyan #login-reg .form-box .btn {
 	background-color: #1abac8;
 }
+body.cyan #edu-type .nav-tabs li {
+	background: #1abac8;
+	border: 1px solid white;
+}
+body.cyan #edu-type .nav-tabs li a {
+	color: #fff;
+}
+body.cyan #edu-type .nav-tabs li.active a {
+	color: black;
+}
 
 
 
