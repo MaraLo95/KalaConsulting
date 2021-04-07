@@ -7985,7 +7985,7 @@ transition: 1s ease;
 	width: 100%;
 	border: 1px solid gray;
 }
-#tab1 .explain {
+.explain {
 	text-align: center;
 	padding-top: 10px;
 	font-weight: bold;
@@ -8013,6 +8013,10 @@ transition: 1s ease;
 
 .price tr:nth-child(even) {
   background-color: #dddddd;
+}
+.control {
+	list-style: disc;
+	margin-left: 15px;
 }
 
 

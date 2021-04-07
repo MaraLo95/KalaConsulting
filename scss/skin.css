@@ -989,7 +989,16 @@ body.blue #features-page .right-section {
 body.blue #login-reg .form-box .btn {
 	background-color: #159eee;
 }
-
+body.blue #edu-type .nav-tabs li {
+	background: #159eee;
+	border: 1px solid white;
+}
+body.blue #edu-type .nav-tabs li a {
+	color: #fff;
+}
+body.blue #edu-type .nav-tabs li.active a {
+	color: black;
+}
 
 
 /******************* ORANGE THEME *******************/
@@ -1471,6 +1480,17 @@ body.orange #features-page .right-section {
 body.orange #login-reg .form-box .btn {
 	background-color: #ff8a00;
 }
+body.orange #edu-type .nav-tabs li {
+	background: #ff8a00;
+	border: 1px solid white;
+}
+body.orange #edu-type .nav-tabs li a {
+	color: #fff;
+}
+body.orange #edu-type .nav-tabs li.active a {
+	color: black;
+}
+
 
 
 /******************* RED THEME *******************/
@@ -1951,6 +1971,16 @@ body.red #features-page .right-section {
 }
 body.red #login-reg .form-box .btn {
 	background-color: #e54e53;
+}
+body.red #edu-type .nav-tabs li {
+	background: #e54e53;
+	border: 1px solid white;
+}
+body.red #edu-type .nav-tabs li a {
+	color: #fff;
+}
+body.red #edu-type .nav-tabs li.active a {
+	color: black;
 }
 
 
@@ -2434,6 +2464,16 @@ body.green #features-page .right-section {
 body.green #login-reg .form-box .btn {
 	background-color: #1abc9c;
 }
+body.green #edu-type .nav-tabs li {
+	background: #1abc9c;
+	border: 1px solid white;
+}
+body.green #edu-type .nav-tabs li a {
+	color: #fff;
+}
+body.greend #edu-type .nav-tabs li.active a {
+	color: black;
+}
 
 
 
@@ -2914,3 +2954,14 @@ body.lightgreen #features-page .right-section {
 body.lightgreen #login-reg .form-box .btn {
 	background-color: #b4de50;
 }
+body.lightgreen #edu-type .nav-tabs li {
+	background: #b4de50;
+	border: 1px solid white;
+}
+body.lightgreen #edu-type .nav-tabs li a {
+	color: #fff;
+}
+body.lightgreen #edu-type .nav-tabs li.active a {
+	color: black;
+}
+
