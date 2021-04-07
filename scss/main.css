@@ -8019,6 +8019,25 @@ transition: 1s ease;
 	margin-left: 15px;
 }
 
+.consulting-text {
+	font-weight: bold;
+}
+
+.contact-consulting {
+	margin-top: 20px;
+	width: 90%;
+}
+
+.scm-photo img {
+	width: 600px;
+	height: 450px;
+	margin-top: 70px;
+}
+.lean-cons {
+	padding: 40px;
+	background: #808080;
+}
+
 
 
 
