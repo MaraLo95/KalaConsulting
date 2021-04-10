@@ -21,6 +21,7 @@
 
 <body id="wrapper">
 
+
     <section id="top-header">
         <div class="container">
             <div class="row">
@@ -92,6 +93,7 @@
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
         </ol>
 
         <!-- Wrapper for slides -->
@@ -239,8 +241,10 @@
                 </div>
             </div>
         </div>
-    </section>
 
+
+
+    </section>
 
 
 
@@ -253,7 +257,7 @@
             </div>
             <div class="row contact-wrap">
                 <div class="status alert alert-success" style="display: none"></div>
-                <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php">
+                <form id="main-contact-form" class="contact-form" name="contact-form" action="mail.php" method="POST">
                     <div class="col-sm-5 col-sm-offset-1">
                         <div class="form-group">
                             <label>Ime *</label>
@@ -400,5 +404,7 @@
         </div>
         <a class="open" href="#"><span><i class="fa fa-gear fa-spin"></i></span></a>
     </div>
+
+
 </body>
 </html>

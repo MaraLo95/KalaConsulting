@@ -71,44 +71,48 @@ function changeColor(color) {
 }
 
 
-1
+
       $(document).ready(function() {
-2
+
         $('.nav-tabs > li > a').click(function(event) {
-3
+
           event.preventDefault(); //stop browser to take action for clicked anchor
-4
+
           //get displaying tab content jQuery selector
-5
+
           var active_tab_selector = $('.nav-tabs > li.active > a').attr('href');
-6
+
           //find actived navigation and remove 'active' css
-7
+
           var actived_nav = $('.nav-tabs > li.active');
-8
+
           actived_nav.removeClass('active');
-9
+
           //add 'active' css into clicked navigation
-10
+
           $(this).parents('li').addClass('active');
-11
+
           //hide displaying tab content
-12
+
           $(active_tab_selector).removeClass('active');
-13
+
           $(active_tab_selector).addClass('hide');
-14
+
           //show target tab content
-15
+
           var target_tab_selector = $(this).attr('href');
-16
+
           $(target_tab_selector).removeClass('hide');
-17
+
           $(target_tab_selector).addClass('active');
-18
+
         });
-19
+
       });
 
  
-     
+
+
+
+
+
