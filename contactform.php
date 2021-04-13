@@ -10,7 +10,7 @@ if (isset($_POST['submit'])){
 	$headers = "From: ".$email;
 	$txt = "You have received an e-mail from ".$name."\n\n".$text;
 	mail($mailTo, $company, $txt, $headers);
-	header("Location: ONAMA.html");
+	header("Location: index.html");
 
 }
 ?>
