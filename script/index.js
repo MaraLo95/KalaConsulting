@@ -110,7 +110,6 @@ function changeColor(color) {
 
       });
 
- 
 
 
-
+    

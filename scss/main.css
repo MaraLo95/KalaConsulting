@@ -6890,6 +6890,7 @@ body #team-member .our-team .our-team-image {
 body #team-member .our-team .our-team-image img {
 	width: 100%;
 	vertical-align: middle;
+
 }
 body #team-member .our-team .our-team-name .wpb_column, body #team-member .our-team .our-team-position {
 	color: #fff;
@@ -6923,6 +6924,7 @@ body #team-member .our-team.main-info-below-image .our-team-image img {
 	-webkit-border-radius: 100%;
 	-moz-border-radius: 100%;
 	border-radius: 100%;
+
 }
 @media all and (max-width: 480px) {
 body #team-member .our-team.main-info-below-image .our-team-image {
@@ -7851,6 +7853,23 @@ body #login-reg .btn-link-1 {
 	box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
 
 }
+
+/*@media (max-width: 992px) {
+	#services .card {
+		min-height: 150px;
+	}
+}*/
+#services .card:hover {
+	padding: 0px !important;
+	margin: 0px;
+}
+
+#services .card:hover .card-title {
+	padding: 0px;
+	margin: 0px !important;
+}
+
+
 .shrink {
 transition: 1s ease;
 width: 90%;
@@ -8185,12 +8204,14 @@ transition: 1s ease;
 
 }
 .forecast {
-	width: 90%;
+	background: #34363e;
+	width: 95%;
 	margin-top: 50px;
 	text-align: justify;
 	margin-left: auto;
 	margin-right: auto;
-
+	padding: 30px;
+	color: white
 }
 .forecast:hover {
 	width: 100%;
@@ -8198,13 +8219,14 @@ transition: 1s ease;
 	text-align: justify;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 20px;
+	padding: 50px;
 	box-shadow: 20px 20px 20px 20px rgba(202, 202, 202, .2);
 	border-bottom: 1px solid gray;
 	border-top: 1px solid gray;
 }
 .forecastphoto {
 	text-align: center;
+	
 }
 #about-carousel {
 	background: transparent;
@@ -8212,8 +8234,88 @@ transition: 1s ease;
 	box-shadow: none;
 }
 
+.form-container {
+    background: #f1ecdf;
+    border: #e2ddd2 1px solid;
+    padding: 20px;
+    border-radius: 2px;
+}
 
+.input-row {
+    margin-bottom: 20px;
+}
 
+.input-row label {
+    color: #75726c;
+}
+
+.input-field {
+    width: 100%;
+    border-radius: 2px;
+    padding: 10px;
+    border: #e0dfdf 1px solid;
+    box-sizing: border-box;
+    margin-top: 2px;
+}
+
+.span-field {
+    font: Arial;
+    font-size: small;
+    text-decoration: none;
+}
+
+.btn-submit {
+    padding: 10px 60px;
+    background: #9e9a91;
+    border: #8c8880 1px solid;
+    color: #ffffff;
+    font-size: 0.9em;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.errorMessage {
+    background-color: #e66262;
+    border: #AA4502 1px solid;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    border-radius: 3px;
+}
+
+.successMessage {
+    background-color: #9fd2a1;
+    border: #91bf93 1px solid;
+    padding: 5px 10px;
+    color: #3d503d;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.info {
+    font-size: .8em;
+    color: #e66262;
+    letter-spacing: 2px;
+    padding-left: 5px;
+}
+
+.mybox {
+	margin-bottom: 30px;
+}
+
+.MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
+    .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+        .MultiCarousel .MultiCarousel-inner .item { float: left;}
+        .MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; background:#f1f1f1; color:#666;}
+    .MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
+    .MultiCarousel .leftLst { left:0; }
+    .MultiCarousel .rightLst { right:0; }
+    
+.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
+
+.MultiCarousel .MultiCarousel-inner .item .pad15 img {
+    height: 120px !important;
+ }
 
 
 

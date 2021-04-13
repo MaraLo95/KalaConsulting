@@ -314,10 +314,16 @@ body.cyan #services .card {
 body.cyan #services .card:hover {
 	background-color: #1abac8;
 	color: #fff;
+	padding: 0px !important;
 }
 body.cyan #services .card-block:hover {
 	color: #fff;
 }
+body.cyan #services .card:hover .card-title {
+	color: #fff ;
+	margin: 10px;
+}
+
 body.cyan #services .card:hover p {
 	color: #fff !important;
 }
