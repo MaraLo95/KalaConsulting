@@ -114,5 +114,3 @@ function changeColor(color) {
 
 
 
-
-
